@@ -1,0 +1,25 @@
+/*
+  Cache-Control: public, max-age=3600
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+
+/*.html
+  Cache-Control: public, max-age=3600
+  Content-Type: text/html; charset=UTF-8
+
+/*.xml
+  Cache-Control: public, max-age=3600
+  Content-Type: application/xml; charset=UTF-8
+
+/sitemap.xml
+  Cache-Control: no-cache, max-age=0
+
+/sitemap.html
+  Cache-Control: no-cache, max-age=0
+
+/index.html
+  Cache-Control: no-cache, max-age=0
+
+/*/posts.html
+  Cache-Control: no-cache, max-age=0
